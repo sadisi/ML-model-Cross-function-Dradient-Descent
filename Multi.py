@@ -33,4 +33,5 @@ for i in range(1, 101):
     c = c - learning_rate * dc
 
     print("m {}, c {}, cost {}, iteration {}".format(m, c, cost, i))
-    plt.show()
+
+plt.show()
